@@ -1,0 +1,18 @@
+{
+  "name": "backmaterials",
+  "version": "1.0.0",
+  "description": "Backend for the crud operation.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Express",
+    "RestAPI",
+    "MongoDB",
+    "Mongoose",
+    "notes"
+  ],
+  "author": "Raj Kumar",
+  "license": "ISC"
+}
