@@ -31,6 +31,9 @@ app.get('/', (req,res) => {
     res.json({"message": "Welcome to Backend of the application"})
 });
 
+//Requiring routes for the crud operation
+require('./app/routes/note.route.js')(app);
+
 //listen for requests
 app.listen(3000, () => {
     console.log("Server is listening on port 3000")
