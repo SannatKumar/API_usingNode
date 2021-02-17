@@ -28,3 +28,11 @@ $ npm install express body-parser mongoose --save
 
 The server.js is the main entry point for this Application.
 
+Configuration folder includes database configurations. The database model is created within inside app/models folder.
+Routes folder has all the routes defined for the crud operation. The controller folder has the controller functions to perform crud operation.
+
+# Final
+
+The app has been tested with postman for all the operation and is working fine.
+
+
