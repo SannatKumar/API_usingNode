@@ -28,8 +28,16 @@ exports.create = (req, res) => {
 
 };
 
-//REtriev and return all notes from the database
+//Retrieve and return all notes from the database
 exports.findAll = (req, res) => {
+    Note.find()
+    .then(notes => {
+        res.notes(notes);
+    }).catch(err => {
+        res.status(500).send({
+            message: err.message || "Some error occurred while retrieving notes."
+        });
+    });
 
 };
 
