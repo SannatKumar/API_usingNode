@@ -3,7 +3,9 @@
 This is an API developed using Node for basic crud operation.
 
 
-# Packages Description
+# Packages Installation & Description
+
+Express body-parser and mongoose are the packages and dependencies required for the development of this api.
 
 1. Express : Express is the popular library to ease server side development for node.js. It is built on top of node.js http module, and adds support for routing, middleware, view system etc. It is very simple and minimal, unlike other frameworks that try do way to much, thereby reducing the flexibility for developers to have their own design choices.
 
@@ -16,11 +18,13 @@ This is an API developed using Node for basic crud operation.
 
 # Process
 
-npm init
+$ npm init
 
 create a server.js file.
 
 install dependencies
 
-npm install express body-parser mongoose --save
+$ npm install express body-parser mongoose --save
+
+The server.js is the main entry point for this Application.
 
